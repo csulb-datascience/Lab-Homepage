@@ -1,0 +1,3 @@
+createHeader();
+createMenu();
+createFooter();
