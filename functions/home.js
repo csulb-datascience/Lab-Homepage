@@ -144,7 +144,7 @@ $.getJSON("json_data/tiles.json", function(json) {
 // Rerender the tile objects after 20ms
 setTimeout(() => {
     renderTileObject();
-}, 30);
+}, 100);
 
 
 // let r = "";
