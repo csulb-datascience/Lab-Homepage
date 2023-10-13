@@ -1,6 +1,8 @@
 function createHeader(){
     document.getElementById("header").innerHTML = `
-        <a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+        <a href="index.html" class="logo">
+            <strong>Ju Cheol Moon</strong> <span>'s Homepage</span>
+        </a>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -9,16 +11,18 @@ function createHeader(){
 
 function createMenu(){
     document.getElementById("menu").innerHTML = `
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="group.html">Group</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="inner">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="group.html">Group</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     `
 }
 

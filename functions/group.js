@@ -1,9 +1,10 @@
 function createImageBox(img, name, email, description, link){
     return `
     <section>
-        <a href="generic.html" class="image">
+        <p class="image">
             <img src="${img}" alt="" data-position="center center" />
-        </a>
+        </p>
+
         <div class="content">
             <div class="inner">
                 <header class="major">
@@ -12,7 +13,9 @@ function createImageBox(img, name, email, description, link){
                 <p>${email}</p>
                 <p>${description}</p>
                 <ul class="actions">
-                    <li><a href="${link}" class="button">Learn more</a></li>
+                    <li>
+                        <a href="${link}" class="button">Learn more</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -20,8 +23,8 @@ function createImageBox(img, name, email, description, link){
     `
 }
 
-$.getJSON("group.json", function(json) {
-    r = "";
+$.getJSON("json_data/group.json", function(json) {
+    let r = "";
     json.data.forEach(member => {
         r += createImageBox(member.image, member.name, member.email, member.description, member.image.link);
     });
