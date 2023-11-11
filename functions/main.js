@@ -98,6 +98,31 @@ function createImageBox(title, subtitle, description, image, link){
     `
 }
 
+function createPublicationBox(title, authors, description, scholar_articles, issue, journal, publication_date, pages, publisher, total_citation, volume){
+    return `
+    <section class="inner">
+
+        <div class="content">
+            <div class="inner">
+                <header class="major" style="width: auto;">
+                    <h2>${title}</h3>
+                </header>
+                <h4>Authors: ${authors}</h4>
+                <p>Description: ${description ?? description}</p>
+                <p>Scholar Articles: ${scholar_articles ?? scholar_articles}</p>
+                <p>Publisher: ${publisher ?? publisher}</p>
+                <p>Publication Date: ${publication_date ?? publication_date}</p>
+                <p>Issue: ${issue ?? issue}</p>
+                <p>Journal: ${journal ?? journal}</p>
+                <p>Pages: ${pages ?? pages}</p>
+                <p>Total Citation: ${total_citation ?? total_citation}</p>
+                <p>Volume: ${volume ?? volume}</p>
+            </div>
+        </div>
+    </section>
+    `
+}
+
 function renderImageBoxes(id, filePath){
     $.getJSON(filePath, function(json) {
         let r = "";
@@ -108,5 +133,30 @@ function renderImageBoxes(id, filePath){
     });
 }
 
+function renderPublicationBoxes(id, filePath){
+    $.getJSON(filePath, function(json) {
+        let r = "";
+        json.forEach(research => {
+            // Publisher, Total citations, Volume
+            d = JSON.parse(research);
+            console.log(d);
+            Object.keys(d).forEach(key => {
+
+            })
+            r += createPublicationBox(d["Title"], 
+                                    d["Authors"], 
+                                    d["Description"], 
+                                    d["Scholar articles"], 
+                                    d["Issue"], 
+                                    d["Journal"], 
+                                    d["Publication date"], 
+                                    d["Pages"], 
+                                    d["Publisher"], 
+                                    d["Total citations"], 
+                                    d["Volume"]);
+        });
+        document.getElementById(id).innerHTML = r;
+    });
+}
 
 
