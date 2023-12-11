@@ -1,8 +1,9 @@
+const currentUrl = window.location.origin;console.log(currentUrl, "group.js");
 function createImageBox(img, name, email, description, link){
     return `
     <section>
         <p class="image">
-            <img src="${img}" alt="" data-position="center center" />
+            <img src="${img}" alt="${currentUrl}/assets/img/alt_image.jpg" data-position="center center" />
         </p>
 
         <div class="content">
@@ -10,8 +11,16 @@ function createImageBox(img, name, email, description, link){
                 <header class="major">
                     <h3>${name}</h3>
                 </header>
-                <p>${email}</p>
-                <p>${description}</p>
+
+                <div>
+                    <h4>Email</h4>
+                    <p>${email}</p>
+                </div>
+                <div>
+                    <h4>Description</h4>
+                    <p>${description}</p>
+                </div>
+
                 <ul class="actions">
                     <li>
                         <a href="${link}" class="button">Learn more</a>

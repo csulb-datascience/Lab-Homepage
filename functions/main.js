@@ -15,11 +15,8 @@ function createMenu(){
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="research.html">Research</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="experience.html">Experience</a></li>
                 <li><a href="teaching.html">Teaching</a></li>
                 <li><a href="group.html">Group</a></li>
-                <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -98,7 +95,7 @@ function createImageBox(title, subtitle, description, image, link){
     `
 }
 
-function createPublicationBox(title, authors, description, scholar_articles, issue, journal, publication_date, pages, publisher, total_citation, volume){
+function createResearchBox(title, authors, description, journal, publication_date, link){
     return `
     <section class="inner">
 
@@ -107,16 +104,31 @@ function createPublicationBox(title, authors, description, scholar_articles, iss
                 <header class="major" style="width: auto;">
                     <h2>${title}</h3>
                 </header>
-                <h4>Authors: ${authors}</h4>
-                <p>Description: ${description ?? description}</p>
-                <p>Scholar Articles: ${scholar_articles ?? scholar_articles}</p>
-                <p>Publisher: ${publisher ?? publisher}</p>
-                <p>Publication Date: ${publication_date ?? publication_date}</p>
-                <p>Issue: ${issue ?? issue}</p>
-                <p>Journal: ${journal ?? journal}</p>
-                <p>Pages: ${pages ?? pages}</p>
-                <p>Total Citation: ${total_citation ?? total_citation}</p>
-                <p>Volume: ${volume ?? volume}</p>
+                <article>
+                    <h4>Authors</h4>
+                    <p>${authors}</p>
+                </article>
+                <article>
+                    <h4>Description</h4>
+                    <p>${description ?? description}</p>
+                </article>
+                <div class="row">
+                <article class="col-3 col-12-small">
+                    <h4>Journal</h4>
+                    <p>${journal ?? journal}</p>
+                </article>
+                <article class="col-3 col-12-small">
+                    <h4>Publication Date</h4>
+                    <p>${publication_date ?? publication_date}</p>
+                </article>
+                </div>
+            
+
+                <ul class="actions">
+                    <li>
+                        <a href="${link}" class="button">Learn more</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -133,27 +145,16 @@ function renderImageBoxes(id, filePath){
     });
 }
 
-function renderPublicationBoxes(id, filePath){
+function renderResearchBoxes(id, filePath){
     $.getJSON(filePath, function(json) {
         let r = "";
         json.forEach(research => {
-            // Publisher, Total citations, Volume
-            d = JSON.parse(research);
-            console.log(d);
-            Object.keys(d).forEach(key => {
-
-            })
-            r += createPublicationBox(d["Title"], 
-                                    d["Authors"], 
-                                    d["Description"], 
-                                    d["Scholar articles"], 
-                                    d["Issue"], 
-                                    d["Journal"], 
-                                    d["Publication date"], 
-                                    d["Pages"], 
-                                    d["Publisher"], 
-                                    d["Total citations"], 
-                                    d["Volume"]);
+            r += createResearchBox(research["Title"], 
+                                    research["Authors"], 
+                                    research["Description"], 
+                                    research["Journal"], 
+                                    research["Publication date"],
+                                    research["Link"], );
         });
         document.getElementById(id).innerHTML = r;
     });
