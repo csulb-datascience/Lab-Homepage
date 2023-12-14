@@ -3380,7 +3380,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../img/banner_img.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3436,9 +3436,6 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-			#banner > .inner .image {
-				display: none;
-			}
 
 			#banner > .inner header {
 				width: auto;

@@ -15,11 +15,8 @@ function createMenu(){
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="research.html">Research</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="experience.html">Experience</a></li>
                 <li><a href="teaching.html">Teaching</a></li>
                 <li><a href="group.html">Group</a></li>
-                <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -98,6 +95,46 @@ function createImageBox(title, subtitle, description, image, link){
     `
 }
 
+function createResearchBox(title, authors, description, journal, publication_date, link){
+    return `
+    <section class="inner">
+
+        <div class="content">
+            <div class="inner">
+                <header class="major" style="width: auto;">
+                    <h2>${title}</h3>
+                </header>
+                <article>
+                    <h4>Authors</h4>
+                    <p>${authors}</p>
+                </article>
+                <article>
+                    <h4>Description</h4>
+                    <p>${description ?? description}</p>
+                </article>
+                <div class="row">
+                <article class="col-3 col-12-small">
+                    <h4>Journal</h4>
+                    <p>${journal ?? journal}</p>
+                </article>
+                <article class="col-3 col-12-small">
+                    <h4>Publication Date</h4>
+                    <p>${publication_date ?? publication_date}</p>
+                </article>
+                </div>
+            
+
+                <ul class="actions">
+                    <li>
+                        <a href="${link}" class="button">Learn more</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    `
+}
+
 function renderImageBoxes(id, filePath){
     $.getJSON(filePath, function(json) {
         let r = "";
@@ -108,5 +145,19 @@ function renderImageBoxes(id, filePath){
     });
 }
 
+function renderResearchBoxes(id, filePath){
+    $.getJSON(filePath, function(json) {
+        let r = "";
+        json.forEach(research => {
+            r += createResearchBox(research["Title"], 
+                                    research["Authors"], 
+                                    research["Description"], 
+                                    research["Journal"], 
+                                    research["Publication date"],
+                                    research["Link"], );
+        });
+        document.getElementById(id).innerHTML = r;
+    });
+}
 
 
