@@ -23,7 +23,9 @@ function createMenu(){
     `
 }
 
-function createFooter(){
+// Address => size 3
+function createFooter(email, phone, address, social){
+
     document.getElementById("contact-custom").innerHTML = `
         <div class="inner">             
             <section class="">
@@ -31,23 +33,25 @@ function createFooter(){
                     <div class="contact-method">
                         <span class="icon solid alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="#">${email}</a>
                     </div>
                 </section>
                 <section>
                     <div class="contact-method">
                         <span class="icon solid alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span>${phone}</span>
                     </div>
                 </section>
                 <section>
                     <div class="contact-method">
                         <span class="icon solid alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <span>
+                            ${address[0]}</br>
+                            ${address[1]}</br>
+                            ${address[2]}</br>
+                        </span>
                     </div>
                 </section>
             </section>
@@ -57,11 +61,7 @@ function createFooter(){
     document.getElementById("footer").innerHTML = `
         <div class="inner">
             <ul class="icons">
-                <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="${social['linkedIn']}" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
             </ul>
             <ul class="copyright">
                 <li>&copy; 2023 All Rights Reserved</li>
