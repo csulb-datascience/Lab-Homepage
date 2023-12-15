@@ -301,7 +301,7 @@
 			.on('click', function(event) {
 
 				event.stopPropagation();
-				event.preventDefault();
+				// event.preventDefault();
 
 				$body.removeClass('is-menu-visible');
 
