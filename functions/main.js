@@ -108,18 +108,21 @@ function createResearchBox(title, authors, description, journal, publication_dat
                     <h4>Authors</h4>
                     <p>${authors}</p>
                 </article>
-                <article>
-                    <h4>Description</h4>
-                    <p>${description ?? description}</p>
-                </article>
+                ${description ?
+                    `<article>
+                        <h4>Description</h4>
+                        <p>${description}</p>
+                    </article>`
+                    : ""
+                }
                 <div class="row">
                 <article class="col-3 col-12-small">
                     <h4>Journal</h4>
-                    <p>${journal ?? journal}</p>
+                    <p>${journal}</p>
                 </article>
                 <article class="col-3 col-12-small">
                     <h4>Publication Date</h4>
-                    <p>${publication_date ?? publication_date}</p>
+                    <p>${publication_date}</p>
                 </article>
                 </div>
             
@@ -148,11 +151,13 @@ function renderImageBoxes(id, filePath){
 function renderResearchBoxes(id, filePath){
     $.getJSON(filePath, function(json) {
         let r = "";
+        
         json.forEach(research => {
+            console.log(research["Journal"] ?? research["Book"], research["Book"])
             r += createResearchBox(research["Title"], 
                                     research["Authors"], 
                                     research["Description"], 
-                                    research["Journal"], 
+                                    research["Journal"] ?? research["Book"], 
                                     research["Publication date"],
                                     research["Link"], );
         });
