@@ -153,7 +153,7 @@ function renderResearchBoxes(id, filePath){
         let r = "";
         
         json.forEach(research => {
-            console.log(research["Journal"] ?? research["Book"], research["Book"])
+            // console.log(research["Journal"] ?? research["Book"], research["Book"])
             r += createResearchBox(research["Title"], 
                                     research["Authors"], 
                                     research["Description"], 
