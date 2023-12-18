@@ -6,3 +6,8 @@
 - teaching
 - profile description
 - Description on tiles
+
+## Feedback
+
+- If no 'Journal' -> 'Book'
+- If no 'Description' -> Remove
