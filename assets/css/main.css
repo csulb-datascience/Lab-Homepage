@@ -2996,18 +2996,11 @@ input, select, textarea {
 				}
 
 			.spotlights > section:nth-child(2n) {
-				-moz-flex-direction: row-reverse;
-				-webkit-flex-direction: row-reverse;
-				-ms-flex-direction: row-reverse;
-				flex-direction: row-reverse;
 				background-color: #333856;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
-					-moz-align-items: -moz-flex-end;
-					-webkit-align-items: -webkit-flex-end;
-					-ms-align-items: -ms-flex-end;
-					align-items: flex-end;
+					
 				}
 
 		@media screen and (max-width: 1680px) {
