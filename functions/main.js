@@ -117,7 +117,7 @@ function createResearchBox(title, authors, description, journal, publication_dat
                 }
                 <div class="row">
                 <article class="col-3 col-12-small">
-                    <h4>Journal</h4>
+                    <h4>Journal / Conference</h4>
                     <p>${journal}</p>
                 </article>
                 <article class="col-3 col-12-small">
@@ -154,10 +154,13 @@ function renderResearchBoxes(id, filePath){
         
         json.forEach(research => {
             // console.log(research["Journal"] ?? research["Book"], research["Book"])
+            let journalAndConference = research["Journal"] ?? research["Book"] ?? research["Conference"] ?? research["Institution"];
+            if (journalAndConference === undefined)
+                journalAndConference = "Error"
             r += createResearchBox(research["Title"], 
                                     research["Authors"], 
                                     research["Description"], 
-                                    research["Journal"] ?? research["Book"], 
+                                    journalAndConference, 
                                     research["Publication date"],
                                     research["Link"], );
         });
