@@ -50,6 +50,13 @@
             "link": "https://www.linkedin.com/in/sellabae/"
         },
         {
+            "image": "https://media.licdn.com/dms/image/C5603AQH0NLF1O5omwg/profile-displayphoto-shrink_200_200/0/1636159350714?e=1710979200&v=beta&t=IkjsyvZKP-vgy5jfoZ6qYNI5e1cB-N-CfYIzHn5ECXc",
+            "name": "Sella Bae",
+            "email": "",
+            "description": "M.S. graduated Spring 2021",
+            "link": "https://www.linkedin.com/in/sellabae/"
+        },
+        {
             "image": "https://media.licdn.com/dms/image/C5603AQECueoziwJX9w/profile-displayphoto-shrink_200_200/0/1648491310303?e=1710979200&v=beta&t=Vh58UGD_qkDjEI4a7mBHlP7Wl062xWU_UYE9JxAuThQ",
             "name": "Taina Coleman",
             "email": "tainagdcoleman@gmail.com",
@@ -60,6 +67,7 @@
             "image": "https://media.licdn.com/dms/image/C4E03AQGxyJcCVrpycQ/profile-displayphoto-shrink_200_200/0/1516979860036?e=1710979200&v=beta&t=R1UlIKeQ5W_RYBDl9elYVGC2LfOK4x0KgEsskP_ABYo",
             "name": "Ruben Rosales",
             "email": "ruben.ros14@gmail.com",
+            "Thesis": "Hybrid Interpretable Model for Time Series Analysis"
             "description": "M.S. graduated Spring 2020",
             "link": "https://www.linkedin.com/in/ruben-rosales-99575b9b/"
         }
