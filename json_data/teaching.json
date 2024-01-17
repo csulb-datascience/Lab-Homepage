@@ -1,25 +1,18 @@
 {
     "data":[
         {
-            "title":"Example Teaching 1",
-            "subtitle":"Example Teaching 1",
-            "description":"Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.",
+            "title":"Artificial Intelligence",
+            "subtitle":"CECS 451",
+            "description":"Introduction to the history and implementation of artificial intelligence agents. Topics include search, constraint satisfaction, game-playing, logical agents, belief networks, optimal sequential decision systems.",
             "image":"",
             "link":""
         },
         {
-            "title":"Example Teaching 2",
-            "subtitle":"Example Teaching 2",
-            "description":"Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.",
+            "title":"Advanced Artificial Intelligence",
+            "subtitle":"CECS 551",
+            "description":"Advanced concepts in artificial intelligence. Topics include machine learning, feedforward networks, regularization, optimization, convolution neural network, recurrent neural network, recursive neural network, and recent research topics.",
             "image":"",
             "link":""
-        },
-        {
-            "title":"Example Teaching 3",
-            "subtitle":"Example Teaching 3",
-            "description":"Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.",
-            "image":"",
-            "link":""
-        }
+        
     ]
 }
