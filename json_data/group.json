@@ -1,11 +1,25 @@
 {
     "data":[
         {
-            "image": "",
-            "name": "Ben Kweon",
-            "email": "ben.kweon01@student.csulb.edu",
-            "description": "Hello Hello",
-            "link": "https://github.com/ben9543"
+            "image": "https://media.licdn.com/dms/image/D5603AQFMyKvcovmnyQ/profile-displayphoto-shrink_200_200/0/1678352534673?e=1710979200&v=beta&t=XzKQh39C7nCF6NgBE67gSZ1JbRPohkFueKcIv-NGycA",
+            "name": "Pratik Jadhav",
+            "email": "",
+            "description": "M.S.",
+            "link": "https://www.linkedin.com/in/pratikjadhav2726/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/D5635AQFD9-fJdbzXUg/profile-framedphoto-shrink_200_200/0/1692029267174?e=1706130000&v=beta&t=_098vHQzM4G4XOEuA24dZciCZPhqQewLWewALrc-EH0",
+            "name": "Clayton Asada",
+            "email": "casada94@gmail.com",
+            "description": "M.S.",
+            "link": "https://www.linkedin.com/in/clayton-asada-46986ab1/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/D5635AQG7BJb6y2I0rw/profile-framedphoto-shrink_200_200/0/1694463456124?e=1706130000&v=beta&t=Jt6UMMc1MWwHHqwVI2rg747BvjKnoSHUy7NJ5X4gIoE",
+            "name": "Apurva Jain",
+            "email": "apurvajain.kota@gmail.com",
+            "description": "M.S. graduated Spring 2023",
+            "link": "https://www.linkedin.com/in/apurva-jain22/"
         },
         {
             "image": "https://media.licdn.com/dms/image/C5603AQF3k9LpDW47dQ/profile-displayphoto-shrink_200_200/0/1632792753060?e=1710979200&v=beta&t=Z_VOMwPfpK1DhysmYHPVH-__58iFcTRhCMrpRx3RViI",
@@ -13,6 +27,41 @@
             "email": "nminayarivera@gmail.com",
             "description": "M.S. graduated Fall 2021",
             "link": "https://www.linkedin.com/in/nelson-minaya-computer-science/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQGNBb1aHuokEQ/profile-displayphoto-shrink_200_200/0/1587932343675?e=1710979200&v=beta&t=QVVpRcj9bva_jySdKC3aLlJr5RVD4iQmMbr4oHDe0BU",
+            "name": "Eunice Kang",
+            "email": "eunicemk3@gmail.com",
+            "description": "M.S. graduated Fall 2021",
+            "link": "https://www.linkedin.com/in/eunice-kang-79086897/"
+        },
+        {
+            "image": "",
+            "name": "Harrison Yang",
+            "email": "",
+            "description": "M.S. graduated Spring 2021",
+            "link": "https://www.linkedin.com/in/harrisonyang/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQH0NLF1O5omwg/profile-displayphoto-shrink_200_200/0/1636159350714?e=1710979200&v=beta&t=IkjsyvZKP-vgy5jfoZ6qYNI5e1cB-N-CfYIzHn5ECXc",
+            "name": "Sella Bae",
+            "email": "",
+            "description": "M.S. graduated Spring 2021",
+            "link": "https://www.linkedin.com/in/sellabae/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQECueoziwJX9w/profile-displayphoto-shrink_200_200/0/1648491310303?e=1710979200&v=beta&t=Vh58UGD_qkDjEI4a7mBHlP7Wl062xWU_UYE9JxAuThQ",
+            "name": "Taina Coleman",
+            "email": "tainagdcoleman@gmail.com",
+            "description": "M.S. graduated Spring 2020",
+            "link": "https://www.linkedin.com/in/tainacoleman/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C4E03AQGxyJcCVrpycQ/profile-displayphoto-shrink_200_200/0/1516979860036?e=1710979200&v=beta&t=R1UlIKeQ5W_RYBDl9elYVGC2LfOK4x0KgEsskP_ABYo",
+            "name": "Ruben Rosales",
+            "email": "ruben.ros14@gmail.com",
+            "description": "M.S. graduated Spring 2020",
+            "link": "https://www.linkedin.com/in/ruben-rosales-99575b9b/"
         }
     ]
 }
