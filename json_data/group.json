@@ -1,18 +1,161 @@
 {
     "data":[
         {
-            "image": "",
-            "name": "Ben Kweon",
-            "email": "ben.kweon01@student.csulb.edu",
-            "description": "Hello Hello",
-            "link": "https://github.com/ben9543"
+            "image": "https://media.licdn.com/dms/image/D5603AQFMyKvcovmnyQ/profile-displayphoto-shrink_200_200/0/1678352534673?e=1710979200&v=beta&t=XzKQh39C7nCF6NgBE67gSZ1JbRPohkFueKcIv-NGycA",
+            "name": "Pratik Jadhav",
+            "email": "",
+            "description": "M.S.",
+            "link": "https://www.linkedin.com/in/pratikjadhav2726/"
         },
         {
             "image": "",
-            "name": "Ben Kweon(2)",
-            "email": "ben.kweon01@student.csulb.edu",
-            "description": "Hello Hello",
-            "link": "https://github.com/ben9543"
+            "name": "Megan Chung",
+            "email": "",
+            "description": "B.S.",
+            "link": "https://www.linkedin.com/in/megan-chung-6491a1a9/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/D5635AQFD9-fJdbzXUg/profile-framedphoto-shrink_200_200/0/1692029267174?e=1706130000&v=beta&t=_098vHQzM4G4XOEuA24dZciCZPhqQewLWewALrc-EH0",
+            "name": "Clayton Asada",
+            "email": "casada94@gmail.com",
+            "description": "M.S.",
+            "link": "https://www.linkedin.com/in/clayton-asada-46986ab1/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C4E03AQEVFcserltbkA/profile-displayphoto-shrink_200_200/0/1623452720805?e=1710979200&v=beta&t=eVlzCVT0erTzG286UckGsqykt2tDDddm5LdT2EAGRII",
+            "name": "David Parkin",
+            "email": "parkindap@gmail.com",
+            "thesis": "Analyzing Rate My Professors Student Reviews to Find Patterns and Trends",
+            "description": "B.S. graduated Fall 2023",
+            "link": "https://www.linkedin.com/in/david-parkin-916a1a202/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/D5603AQFXSVVfcVV7Xw/profile-displayphoto-shrink_200_200/0/1677618346222?e=1710979200&v=beta&t=D6K4TsFH3C1xNdupA2OMEzbYTTC7vHbewGXF0QkvjiA",
+            "name": "Daniel Jo",
+            "email": "sungkeun.jo@gmail.com",
+            "thesis": "Enhancing Multi-Criteria Recommendation: Incorporating Edge Weights in Graph Convolution",
+            "description": "B.S. graduated Fall 2023",
+            "link": "https://www.linkedin.com/in/danielskjo/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/D5603AQHbwgl_3Zs9og/profile-displayphoto-shrink_200_200/0/1704781176108?e=1710979200&v=beta&t=pq18ZRftU_gP4e3T_UoPmEIxp9FLyg1zThtDZoriBD8",
+            "name": "Jordan Ali Hilado",
+            "email": "jordanalihilado@gmail.com",
+            "thesis": "Comparative Study of Text-to-Image Models: A Focus on Subject-Specific Training for Improved Generation",
+            "description": "B.S. graduated Fall 2023",
+            "link": "https://www.linkedin.com/in/jordanhilado/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/D5603AQF6T9dKJcr4YA/profile-displayphoto-shrink_200_200/0/1696888376595?e=1710979200&v=beta&t=wCqkEVz-4RU-zzLVJmsmvDqgljJnkLnrxW7Q_KTlHmU",
+            "name": "Sunbeom (Ben) Kweon",
+            "email": "sunbeom.kweon@gmail.com",
+            "thesis": "Breaking Down Barriers: Deep Learning in Shark Tracking Research",
+            "description": "B.S. graduated Fall 2023",
+            "link": "https://www.linkedin.com/in/sunbeom-kweon/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/D5635AQG7BJb6y2I0rw/profile-framedphoto-shrink_200_200/0/1694463456124?e=1706130000&v=beta&t=Jt6UMMc1MWwHHqwVI2rg747BvjKnoSHUy7NJ5X4gIoE",
+            "name": "Apurva Jain",
+            "email": "apurvajain.kota@gmail.com",
+            "thesis": "Open-Set User and Speed Classifier Using Few-Shot Learning",
+            "description": "M.S. graduated Spring 2023",
+            "link": "https://www.linkedin.com/in/apurva-jain22/"
+        },
+        {
+            "image": "",
+            "name": "Patrick Wong",
+            "email": "",
+            "thesis": "Normalize, and Reduce (FNR): Normalization of LinkedIn Datasets with Long Short-Term Memory on Folded Bipartite Graph Networking Embedding",
+            "description": "M.S. graduated Spring 2023",
+            "link": ""
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C4D03AQF-JAKhrtjKNg/profile-displayphoto-shrink_200_200/0/1660757338903?e=1710979200&v=beta&t=5I0lONiUAtB8jsT0KzlyKbr68IYbZEf3AZcGUs1PyPk",
+            "name": "Jacob Azevedo",
+            "email": "jacobazevedojr@yahoo.com",
+            "thesis": "Application of Graph Neural Networks with Folded Bipartite Network Embedding to Occupation Recommendation",
+            "description": "B.S. graduated Spring 2022",
+            "link": "https://www.linkedin.com/in/jacobazevedojr/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQGYgcdoyZhzSQ/profile-displayphoto-shrink_200_200/0/1662011649390?e=1710979200&v=beta&t=5G9cMdhyPbciLhhubu8SqGBHAe24icLvP4rZU_-yrZU",
+            "name": "Mikayla Freitas",
+            "email": "",
+            "thesis": "A survey on Gait Recognition Using Wearable Sensors",
+            "description": "B.S. graduated Spring 2022",
+            "link": "https://www.linkedin.com/in/mikayla-freitas-29388615b/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQG67HmFQurHUg/profile-displayphoto-shrink_200_200/0/1638215826710?e=1710979200&v=beta&t=2YwEyl1aBfM13D3kq5yXlyWEtelssnGZ3Ooc9sT2kgE",
+            "name": "David Eaton",
+            "email": "davideaton@gmail.com",
+            "thesis": "An Analysis of Automobile Traffic and Air Quality Data",
+            "description": "B.S. graduated Spring 2022",
+            "link": "https://www.linkedin.com/in/davidaeaton/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQF3k9LpDW47dQ/profile-displayphoto-shrink_200_200/0/1632792753060?e=1710979200&v=beta&t=Z_VOMwPfpK1DhysmYHPVH-__58iFcTRhCMrpRx3RViI",
+            "name": "Nelson Minaya",
+            "email": "nminayarivera@gmail.com",
+            "thesis": "Interpretable Deep Learning-based Approach for the Gait Recognition",
+            "description": "M.S. graduated Fall 2021",
+            "link": "https://www.linkedin.com/in/nelson-minaya-computer-science/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQGNBb1aHuokEQ/profile-displayphoto-shrink_200_200/0/1587932343675?e=1710979200&v=beta&t=QVVpRcj9bva_jySdKC3aLlJr5RVD4iQmMbr4oHDe0BU",
+            "name": "Eunice Kang",
+            "email": "eunicemk3@gmail.com",
+            "thesis": "Few-Shot Open Set Gait Recognition with Ensemble Network",
+            "description": "M.S. graduated Fall 2021",
+            "link": "https://www.linkedin.com/in/eunice-kang-79086897/"
+        },
+        {
+            "image": "",
+            "name": "Harrison Yang",
+            "email": "",
+            "thesis": "Improving Analysis of Explainable AI Using Human Gait ",
+            "description": "M.S. graduated Spring 2021",
+            "link": "https://www.linkedin.com/in/harrisonyang/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQH0NLF1O5omwg/profile-displayphoto-shrink_200_200/0/1636159350714?e=1710979200&v=beta&t=IkjsyvZKP-vgy5jfoZ6qYNI5e1cB-N-CfYIzHn5ECXc",
+            "name": "Sella Bae",
+            "email": "",
+            "thesis": "DNN Based Framework for Better Statistical Explanations",
+            "description": "M.S. graduated Spring 2021",
+            "link": "https://www.linkedin.com/in/sellabae/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQH0NLF1O5omwg/profile-displayphoto-shrink_200_200/0/1636159350714?e=1710979200&v=beta&t=IkjsyvZKP-vgy5jfoZ6qYNI5e1cB-N-CfYIzHn5ECXc",
+            "name": "Sella Bae",
+            "email": "",
+            "thesis": "",
+            "description": "M.S. graduated Spring 2021",
+            "link": "https://www.linkedin.com/in/sellabae/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQHFp7ofAwxPEg/profile-displayphoto-shrink_200_200/0/1583806332886?e=1710979200&v=beta&t=6Ng-_WfZ7KZILsHkucJpTQAazMhBgASuYUYn8b_CL2M",
+            "name": "Grant Chen",
+            "email": "azoe2@hotmail.com",
+            "thesis": "Modern Neural Network Models for Transportation Classification by Time Series Smart Phone Sensors Data Analysis",
+            "description": "M.S. graduated Summer 2020",
+            "link": "https://www.linkedin.com/in/grantchen22977/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C5603AQECueoziwJX9w/profile-displayphoto-shrink_200_200/0/1648491310303?e=1710979200&v=beta&t=Vh58UGD_qkDjEI4a7mBHlP7Wl062xWU_UYE9JxAuThQ",
+            "name": "Taina Coleman",
+            "email": "tainagdcoleman@gmail.com",
+            "thesis": "SharkID – A Framework for Automated Individual Shark Identification",
+            "description": "M.S. graduated Spring 2020",
+            "link": "https://www.linkedin.com/in/tainacoleman/"
+        },
+        {
+            "image": "https://media.licdn.com/dms/image/C4E03AQGxyJcCVrpycQ/profile-displayphoto-shrink_200_200/0/1516979860036?e=1710979200&v=beta&t=R1UlIKeQ5W_RYBDl9elYVGC2LfOK4x0KgEsskP_ABYo",
+            "name": "Ruben Rosales",
+            "email": "ruben.ros14@gmail.com",
+            "thesis": "Hybrid Interpretable Model for Time Series Analysis",
+            "description": "M.S. graduated Spring 2020",
+            "link": "https://www.linkedin.com/in/ruben-rosales-99575b9b/"
         }
     ]
 }
