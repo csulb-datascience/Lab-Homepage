@@ -2,6 +2,21 @@
 
 ## [Go to Homepage](https://csulb-datascience.github.io/Lab-Homepage/)
 
+## Update Notice
+
+#### Jan 21st 2024
+
+- Now we can add thesis paper PDF` links into the Group page.
+    - Need to add `thesis` parameter in `json_data/group.json`
+    - The "Thesis Paper" button will show up regardless of the `thesis` parameter. But if there is no link provided, the button will be disabled.
+    - This goes same to the "Learn More" button.
+
+- Image profile for Group page is now available.
+
+- Fixed Learn More button link issue.
+
+- Removed the "Learn More" button on the Teaching page.
+
 ## Github Deployment Guide
 
 - The website is published by Github Pages
