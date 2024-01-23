@@ -3,7 +3,7 @@
         {
             "image": "https://media.licdn.com/dms/image/D5603AQFMyKvcovmnyQ/profile-displayphoto-shrink_200_200/0/1678352534673?e=1710979200&v=beta&t=XzKQh39C7nCF6NgBE67gSZ1JbRPohkFueKcIv-NGycA",
             "name": "Pratik Jadhav",
-            "email": "",
+            "email": "pratikjadhav2726@gmail.com",
             "description": "M.S.",
             "link": "https://www.linkedin.com/in/pratikjadhav2726/"
         },
@@ -80,7 +80,7 @@
         {
             "image": "https://media.licdn.com/dms/image/C5603AQGYgcdoyZhzSQ/profile-displayphoto-shrink_200_200/0/1662011649390?e=1710979200&v=beta&t=5G9cMdhyPbciLhhubu8SqGBHAe24icLvP4rZU_-yrZU",
             "name": "Mikayla Freitas",
-            "email": "",
+            "email": "mikaylafreitas@gmail.com",
             "thesis": "A survey on Gait Recognition Using Wearable Sensors",
             "description": "B.S. graduated Spring 2022",
             "link": "https://www.linkedin.com/in/mikayla-freitas-29388615b/"
@@ -110,9 +110,16 @@
             "link": "https://www.linkedin.com/in/eunice-kang-79086897/"
         },
         {
+            "image": "https://media.licdn.com/dms/image/D5603AQHTdy2q9V46ZA/profile-displayphoto-shrink_200_200/0/1693451703417?e=1711584000&v=beta&t=GC9pZsYjaJreGdz4uuzC4Ah3cYQY_i7MDXs5X4TVbG4",
+            "name": "Nhat Le",
+            "email": "nle5@nd.edu",
+            "description": "B.S. graduated Spring 2021",
+            "link": "https://www.linkedin.com/in/nl2/"
+        },
+        {
             "image": "",
             "name": "Harrison Yang",
-            "email": "",
+            "email": "oa.student@gmail.com",
             "thesis": "Improving Analysis of Explainable AI Using Human Gait ",
             "description": "M.S. graduated Spring 2021",
             "link": "https://www.linkedin.com/in/harrisonyang/"
