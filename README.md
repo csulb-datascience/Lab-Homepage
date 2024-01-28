@@ -17,6 +17,13 @@
 
 - Removed the "Learn More" button on the Teaching page.
 
+
+#### Jan 27th 2024
+
+- Removed teaching page "LEARN MORE" button
+- Changed text from "THESIS PAPER" -> to "THESIS"
+
+
 ## Github Deployment Guide
 
 - The website is published by Github Pages
