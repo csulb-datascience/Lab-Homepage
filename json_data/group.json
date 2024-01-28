@@ -5,21 +5,24 @@
             "name": "Pratik Jadhav",
             "email": "pratikjadhav2726@gmail.com",
             "description": "M.S.",
-            "link": "https://www.linkedin.com/in/pratikjadhav2726/"
+            "link": "https://www.linkedin.com/in/pratikjadhav2726/",
+            "thesis": ""
         },
         {
             "image": "",
             "name": "Megan Chung",
             "email": "",
             "description": "B.S.",
-            "link": "https://www.linkedin.com/in/megan-chung-6491a1a9/"
+            "link": "https://www.linkedin.com/in/megan-chung-6491a1a9/",
+            "thesis": ""
         },
         {
             "image": "https://media.licdn.com/dms/image/D5635AQFD9-fJdbzXUg/profile-framedphoto-shrink_200_200/0/1692029267174?e=1706749200&v=beta&t=_uAQpSqrgA1zaSNl3ahT4V05PtmkxsLu12pEvlaFOMI",
             "name": "Clayton Asada",
             "email": "casada94@gmail.com",
             "description": "M.S.",
-            "link": "https://www.linkedin.com/in/clayton-asada-46986ab1/"
+            "link": "https://www.linkedin.com/in/clayton-asada-46986ab1/",
+            "thesis": ""
         },
         {
             "image": "https://media.licdn.com/dms/image/C4E03AQEVFcserltbkA/profile-displayphoto-shrink_200_200/0/1623452720805?e=1710979200&v=beta&t=eVlzCVT0erTzG286UckGsqykt2tDDddm5LdT2EAGRII",
@@ -49,7 +52,7 @@
             "image": "https://media.licdn.com/dms/image/D5603AQF6T9dKJcr4YA/profile-displayphoto-shrink_200_200/0/1696888376595?e=1710979200&v=beta&t=wCqkEVz-4RU-zzLVJmsmvDqgljJnkLnrxW7Q_KTlHmU",
             "name": "Sunbeom (Ben) Kweon",
             "email": "sunbeom.kweon@gmail.com",
-            "thesis": "Breaking Down Barriers: Deep Learning in Shark Tracking Research",
+            "thesis": "https://drive.google.com/file/d/1P9LmXE_DzFz0eCQWpUHwi1Z1Z2Frx8TS/view?usp=drive_link",
             "description": "B.S. graduated Fall 2023",
             "link": "https://www.linkedin.com/in/sunbeom-kweon/"
         },

@@ -4,32 +4,28 @@ function renderLinks(link, thesis){
             <li>
                 <a href="${link}" class="button" >Learn more</a>
             </li>
-            <li>
-                <a href="${thesis}" class="button" style="pointer-events:none; cursor: not-allowed !important;">Thesis Paper</a>
-            </li>
         `);
-    }else if(!link && thesis){
+    } else if(!link && thesis){
         return (`
             <li>
-                <a href="${link}" class="button" style="pointer-events:none; cursor: not-allowed !important;">Learn more</a>
-            </li>
-            <li>
-                <a href="${thesis}" class="button" >Thesis Paper</a>
+                <a href="${thesis}" class="button" >Thesis</a>
             </li>
         `);
-    }else {
+    } else if(!link && !thesis){
+        return "";
+    } else {
         return (`
             <li>
                 <a href="${link}" class="button">Learn more</a>
             </li>
             <li>
-                <a href="${thesis}" class="button">Thesis Paper</a>
+                <a href="${thesis}" class="button">Thesis</a>
             </li>
         `);
     }
 }
 
-function createImageBox(img, name, email, description, link, thesis){
+function createGroupBox(img, name, email, description, link, thesis){
     let allLinks = renderLinks(link, thesis);
     return `
     <section style="width:100%;">
@@ -68,7 +64,7 @@ function createImageBox(img, name, email, description, link, thesis){
 $.getJSON("json_data/group.json", function(json) {
     let r = "";
     json.data.forEach(member => {
-        r += createImageBox(member.image, member.name, member.email, member.description, member.link);
+        r += createGroupBox(member.image, member.name, member.email, member.description, member.link, member.thesis);
     });
     document.getElementById("two").innerHTML = r;
 });
