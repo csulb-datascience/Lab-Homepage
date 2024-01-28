@@ -5,7 +5,7 @@ function renderLinks(link, thesis){
                 <a href="${link}" class="button" >Learn more</a>
             </li>
             <li>
-                <a href="${thesis}" class="button" style="pointer-events:none; cursor: not-allowed !important;">Thesis Paper</a>
+                <a href="${thesis}" class="button" style="pointer-events:none; cursor: not-allowed !important;">Thesis</a>
             </li>
         `);
     }else if(!link && thesis){
@@ -14,7 +14,7 @@ function renderLinks(link, thesis){
                 <a href="${link}" class="button" style="pointer-events:none; cursor: not-allowed !important;">Learn more</a>
             </li>
             <li>
-                <a href="${thesis}" class="button" >Thesis Paper</a>
+                <a href="${thesis}" class="button" >Thesis</a>
             </li>
         `);
     }else {
@@ -23,7 +23,7 @@ function renderLinks(link, thesis){
                 <a href="${link}" class="button">Learn more</a>
             </li>
             <li>
-                <a href="${thesis}" class="button">Thesis Paper</a>
+                <a href="${thesis}" class="button">Thesis</a>
             </li>
         `);
     }
