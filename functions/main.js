@@ -62,8 +62,6 @@ function createFooter(email, phone, address, social){
         <div class="inner">
             <ul class="icons">
                 <li><a href="${social['linkedIn']}" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-            </ul>
-            <ul class="icons">
                 <li><a href="${social['github']}" class="icon brands alt fa fa-github"><span class="label">GitHub</span></a></li>
             </ul>
             <ul class="copyright">
