@@ -1,6 +1,14 @@
 {
     "data":[
         {
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/debarati.jpeg",
+            "name": "Debarati Datta",
+            "email": "",
+            "description": "M.S.",
+            "link": "https://www.linkedin.com/in/debaratidatta77/",
+            "thesis": ""
+        },
+        {
             "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/pratik.jpeg",
             "name": "Pratik Jadhav",
             "email": "pratikjadhav2726@gmail.com",
@@ -17,7 +25,7 @@
             "thesis": ""
         },
         {
-            "image": "https://media.licdn.com/dms/image/D5635AQFD9-fJdbzXUg/profile-framedphoto-shrink_200_200/0/1692029267174?e=1706749200&v=beta&t=_uAQpSqrgA1zaSNl3ahT4V05PtmkxsLu12pEvlaFOMI",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/clay.jpeg",
             "name": "Clayton Asada",
             "email": "casada94@gmail.com",
             "description": "M.S.",
@@ -25,7 +33,7 @@
             "thesis": ""
         },
         {
-            "image": "https://media.licdn.com/dms/image/C4E03AQEVFcserltbkA/profile-displayphoto-shrink_200_200/0/1623452720805?e=1710979200&v=beta&t=eVlzCVT0erTzG286UckGsqykt2tDDddm5LdT2EAGRII",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/david.jpeg",
             "name": "David Parkin",
             "email": "parkindap@gmail.com",
             "thesis": "https://github.com/csulb-datascience/Sentiment-Analysis-for-RateMyProfessor",
@@ -33,7 +41,7 @@
             "link": "https://www.linkedin.com/in/david-parkin-916a1a202/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/D5603AQFXSVVfcVV7Xw/profile-displayphoto-shrink_200_200/0/1677618346222?e=1710979200&v=beta&t=D6K4TsFH3C1xNdupA2OMEzbYTTC7vHbewGXF0QkvjiA",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/daniel.jpeg",
             "name": "Daniel Jo",
             "email": "sungkeun.jo@gmail.com",
             "thesis": "https://github.com/csulb-datascience/Multi-criteria-Recommend-System",
@@ -41,7 +49,7 @@
             "link": "https://www.linkedin.com/in/danielskjo/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/D5603AQHbwgl_3Zs9og/profile-displayphoto-shrink_200_200/0/1704781176108?e=1710979200&v=beta&t=pq18ZRftU_gP4e3T_UoPmEIxp9FLyg1zThtDZoriBD8",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/jordan.jpeg",
             "name": "Jordan Ali Hilado",
             "email": "jordanalihilado@gmail.com",
             "thesis": "https://github.com/csulb-datascience/Fine-Tuning-on-Stable-Diffusion",
@@ -49,7 +57,7 @@
             "link": "https://www.linkedin.com/in/jordanhilado/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/D5603AQF6T9dKJcr4YA/profile-displayphoto-shrink_200_200/0/1696888376595?e=1710979200&v=beta&t=wCqkEVz-4RU-zzLVJmsmvDqgljJnkLnrxW7Q_KTlHmU",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/ben.jpeg",
             "name": "Sunbeom (Ben) Kweon",
             "email": "sunbeom.kweon@gmail.com",
             "thesis": "https://drive.google.com/file/d/1P9LmXE_DzFz0eCQWpUHwi1Z1Z2Frx8TS/view?usp=drive_link",
@@ -57,7 +65,7 @@
             "link": "https://www.linkedin.com/in/sunbeom-kweon/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/D5635AQG7BJb6y2I0rw/profile-framedphoto-shrink_200_200/0/1694463456124?e=1706130000&v=beta&t=Jt6UMMc1MWwHHqwVI2rg747BvjKnoSHUy7NJ5X4gIoE",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/apurva.jpeg",
             "name": "Apurva Jain",
             "email": "apurvajain.kota@gmail.com",
             "thesis": "https://www.proquest.com/docview/2901362262",
@@ -73,28 +81,28 @@
             "link": ""
         },
         {
-            "image": "https://media.licdn.com/dms/image/C4D03AQF-JAKhrtjKNg/profile-displayphoto-shrink_200_200/0/1660757338903?e=1710979200&v=beta&t=5I0lONiUAtB8jsT0KzlyKbr68IYbZEf3AZcGUs1PyPk",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/jacob.jpeg",
             "name": "Jacob Azevedo",
             "email": "jacobazevedojr@yahoo.com",
             "description": "B.S. graduated Spring 2022",
             "link": "https://www.linkedin.com/in/jacobazevedojr/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C5603AQGYgcdoyZhzSQ/profile-displayphoto-shrink_200_200/0/1662011649390?e=1710979200&v=beta&t=5G9cMdhyPbciLhhubu8SqGBHAe24icLvP4rZU_-yrZU",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/mikayla.jpeg",
             "name": "Mikayla Freitas",
             "email": "mikaylafreitas@gmail.com",
             "description": "B.S. graduated Spring 2022",
             "link": "https://www.linkedin.com/in/mikayla-freitas-29388615b/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C5603AQG67HmFQurHUg/profile-displayphoto-shrink_200_200/0/1638215826710?e=1710979200&v=beta&t=2YwEyl1aBfM13D3kq5yXlyWEtelssnGZ3Ooc9sT2kgE",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/davide.jpeg",
             "name": "David Eaton",
             "email": "davideaton@gmail.com",
             "description": "B.S. graduated Spring 2022",
             "link": "https://www.linkedin.com/in/davidaeaton/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C5603AQF3k9LpDW47dQ/profile-displayphoto-shrink_200_200/0/1632792753060?e=1710979200&v=beta&t=Z_VOMwPfpK1DhysmYHPVH-__58iFcTRhCMrpRx3RViI",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/nelson.jpeg",
             "name": "Nelson Minaya",
             "email": "nminayarivera@gmail.com",
             "thesis": "https://www.proquest.com/docview/2647399893",
@@ -102,7 +110,7 @@
             "link": "https://www.linkedin.com/in/nelson-minaya-computer-science/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C5603AQGNBb1aHuokEQ/profile-displayphoto-shrink_200_200/0/1587932343675?e=1710979200&v=beta&t=QVVpRcj9bva_jySdKC3aLlJr5RVD4iQmMbr4oHDe0BU",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/eunice.jpeg",
             "name": "Eunice Kang",
             "email": "eunicemk3@gmail.com",
             "thesis": "https://www.proquest.com/docview/2647381597",
@@ -110,7 +118,7 @@
             "link": "https://www.linkedin.com/in/eunice-kang-79086897/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/D5603AQHTdy2q9V46ZA/profile-displayphoto-shrink_200_200/0/1693451703417?e=1711584000&v=beta&t=GC9pZsYjaJreGdz4uuzC4Ah3cYQY_i7MDXs5X4TVbG4",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/naht.jpeg",
             "name": "Nhat Le",
             "email": "nle5@nd.edu",
             "description": "B.S. graduated Spring 2021",
@@ -125,7 +133,7 @@
             "link": "https://www.linkedin.com/in/harrisonyang/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C5603AQH0NLF1O5omwg/profile-displayphoto-shrink_200_200/0/1636159350714?e=1710979200&v=beta&t=IkjsyvZKP-vgy5jfoZ6qYNI5e1cB-N-CfYIzHn5ECXc",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/sella.jpeg",
             "name": "Sella Bae",
             "email": "",
             "thesis": "https://www.proquest.com/docview/2572587378",
@@ -133,7 +141,7 @@
             "link": "https://www.linkedin.com/in/sellabae/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C5603AQHFp7ofAwxPEg/profile-displayphoto-shrink_200_200/0/1583806332886?e=1710979200&v=beta&t=6Ng-_WfZ7KZILsHkucJpTQAazMhBgASuYUYn8b_CL2M",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/grant.jpeg",
             "name": "Grant Chen",
             "email": "azoe2@hotmail.com",
             "thesis": "https://www.proquest.com/docview/2492980138",
@@ -141,7 +149,7 @@
             "link": "https://www.linkedin.com/in/grantchen22977/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C5603AQECueoziwJX9w/profile-displayphoto-shrink_200_200/0/1648491310303?e=1710979200&v=beta&t=Vh58UGD_qkDjEI4a7mBHlP7Wl062xWU_UYE9JxAuThQ",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/taina.jpeg",
             "name": "Taina Coleman",
             "email": "tainagdcoleman@gmail.com",
             "thesis": "https://www.proquest.com/docview/2447022763",
@@ -149,7 +157,7 @@
             "link": "https://www.linkedin.com/in/tainacoleman/"
         },
         {
-            "image": "https://media.licdn.com/dms/image/C4E03AQGxyJcCVrpycQ/profile-displayphoto-shrink_200_200/0/1516979860036?e=1710979200&v=beta&t=R1UlIKeQ5W_RYBDl9elYVGC2LfOK4x0KgEsskP_ABYo",
+            "image": "https://raw.githubusercontent.com/csulb-datascience/Lab-Homepage/main/assets/img/members/ruben.jpeg",
             "name": "Ruben Rosales",
             "email": "ruben.ros14@gmail.com",
             "thesis": "https://www.proquest.com/docview/2458508910",
