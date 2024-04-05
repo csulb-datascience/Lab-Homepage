@@ -51,7 +51,7 @@ function createGroupBox(img, name, email, description, link, thesis){
                     </div>
                     <div class="inner col-6 col-12-small">
                         <span class="image" style="justify-content:center; align-items:center; display:flex;">
-                            <img src="${img}" width="300" alt=""/>
+                            <img src="${img}" width="250" alt=""/>
                         </span>
                     </div>
                 </div>
