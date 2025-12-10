@@ -36,10 +36,6 @@ function createGroupBox(img, name, email, description, link, thesis){
                 </header>
                 <div class="row">
                     <div class="inner col-6 col-12-small">
-                        // <div>
-                        //     <h4>Email</h4>
-                        //     <p>${email}</p>
-                        // </div>
                         <div>
                             <h4>Description</h4>
                             <p>${description}</p>
